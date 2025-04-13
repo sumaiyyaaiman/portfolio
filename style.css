@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #222;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  margin: 0.5rem 0 1rem;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #f8b500;
+}
+section {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+section h2 {
+  border-bottom: 2px solid #222;
+  padding-bottom: 0.5rem;
+}
+ul {
+  padding-left: 1.5rem;
+}
+li {
+  margin-bottom: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #222;
+  color: #fff;
+}
+a {
+  color: #222;
+}
+a:hover {
+  text-decoration: underline;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
